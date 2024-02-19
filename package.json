@@ -1,0 +1,19 @@
+{
+  "name": "nng-faq",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "dependencies": {
+    "@vuepress/plugin-docsearch": "next",
+    "@vuepress/plugin-register-components": "next",
+    "@vuepress/plugin-search": "next",
+    "@vuepress/theme-default": "next",
+    "@vuepress/utils": "next",
+    "markdown-it-task-checkbox": "latest",
+    "vue-good-table-next": "latest",
+    "vuepress": "next",
+    "vuepress-plugin-sitemap2": "latest"
+  }
+}

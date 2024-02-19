@@ -1,0 +1,26 @@
+table {
+  display: table;
+}
+table.vgt-table td {
+  color: unset !important;
+}
+html.dark {
+  .vgt-table.bordered td, .vgt-table.bordered th {
+    border: unset !important;
+  }
+  .vgt-table th.line-numbers, .vgt-table th.vgt-checkbox-col {
+    color: unset !important;
+    background: unset !important;
+  }
+  table.vgt-table {
+    background-color: unset !important;
+    border: unset !important;
+  }
+  .vgt-table thead th {
+    background: unset !important;
+    color: unset !important;
+  }
+  table.vgt-table td {
+    color: unset !important;
+  }
+}
